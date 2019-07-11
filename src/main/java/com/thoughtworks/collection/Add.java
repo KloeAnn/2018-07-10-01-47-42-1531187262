@@ -10,15 +10,29 @@ public class Add {
     }
 
     public int getSumOfOdds(int leftBorder, int rightBorder) {
-        throw new NotImplementedException();
+
+            int res=0;
+            for(int i=leftBorder;i<=rightBorder;i++){
+                if(i%2==0)res+=i;
+            }
+            return res;
+
     }
 
     public int getSumTripleAndAddTwo(List<Integer> arrayList) {
-        throw new NotImplementedException();
+        int res=0;
+        for(int i=0;i<=arrayList.length;i++){
+            res+=arrayList[i]*3+2
+        }
+        return res;
     }
 
     public List<Integer> getTripleOfOddAndAddTwo(List<Integer> arrayList) {
-        throw new NotImplementedException();
+        Integer[] arrayRes ;
+        for(int i=0;i<=arrayList.length;i++){
+            i%2==0?arrayRes.push(arrayList)
+        }
+
     }
 
     public int getSumOfProcessedOdds(List<Integer> arrayList) {
